@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/2dd07d897c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="intro">
+     <div class="intro-video">
+      <video autoplay muted loop id="bgvideo"
+       src="v2.mp4" type="video/mp4">
+     </video>
+     <div class="intro-text">
+        <hi>Welcome to the future</hi>
+        <p>experience innovation</p>
+     </div>
+     </div>
+    </section>
+    <section id="main-content">
+    <div id="header">
+        <div class="container">
+            <section id="sticky">
+             <nav>
+                 <img src="logo.png" class="logo">
+                 <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                 </ul>
+                  <i class="fas fa-bars" onclick="openmenu()"></i>
+             </nav>
+            </section>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I`m <span>Ken swag</span></h1>
+            </div>
+        </div>
+    </div>
+    <!------about----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol-1">
+                    <img src="anime3.jpg">
+                </div>
+                <div class="aboutcol-2">
+                    <hi class="sub-title">About Me</hi>
+                    <p>I`m Ken ogenyi, a Web developer/designer and a visual UI/UX designer
+                         I`m a web developer with a good knowledge of HTML,CSS,and JAVASCRIPT.
+                       I have over 2yrs working experience, i started coding since i was 16yrs(2023)
+                       I have developed and designed few portfolio websites,web pages and two websites</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>UI/UX designer</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-cureent</span><br>Designing Web/App interfaces as a Freelancer</li>
+                            <li><span>2023-current</span><br>Building Webistes as a Freelancer</li>
+                            <li><span>2023-current</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>UI/UX Design Traning from LUEMPREX ACADEMY</li>
+                            <li><span>2023</span><br>Web app Development Traning from LUEMPREX ACADEMY</li>
+                            <li><span>2023</span><br>Building Android/ios apps Traning  from LUEMPREX ACADEMY</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-----sevices----->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        </i>  <i class="fa-solid fa-code"></i>
+                        <h2>Web Design/Dev</h2>
+                        <p>I create and build web designs for<br> different type of websites and app 
+                            that are very pleasant and appelling to
+                           the eyes who beholds it.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        </i> <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I create web designs different type<br> of websites and app 
+                            that are very pleasant and appelling to
+                           the eyes who beholds it.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design/Dev</h2>
+                        <p>I create web designs different type <br> of websites and app 
+                            that are very pleasant and appelling to
+                           the eyes who beholds it.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+     <!----portfolio---->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the word.
+                            Dowload it from play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the word.
+                            Dowload it from play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connects you to the talented people around the word.
+                            Dowload it from play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+     <!-----contact-->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <a href="mailto:ogenyiken@gmail.com">Email me</a><br>
+                    <a href="https://wa.me/08156019355"
+                    target="_blank">chat me up on whatsapp</a>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/profile.php?id=100085067654428"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/OgenyiOgenyi14"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/ogenyiken/"><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                   </div>
+                   <a href="my-cv.pdf" download class="btn btn2">DOWNLOAD CV</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright by kencodes.<i class="fas fa-heart"></i></p>
+        </div>
+     </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
